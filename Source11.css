@@ -1,0 +1,150 @@
+html, #Clignote {
+    height: 80vh;
+    width: 100%;
+}
+
+
+body {
+  background-image: url("Rue/Onze.png");
+  background-size: auto;
+  font-family: 'Encode Sans', sans-serif;
+  color: white;
+  background-color: black;
+  margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#PivotDroite{
+  content: url("Fleches/PivotDroitNormal.jpg");
+  position: fixed;
+  left: 1150px;
+  top: 350px;
+}
+
+#PivotDroite:hover{
+content: url("Fleches/PivotDroitHover.jpg");
+position: fixed;
+left: 1150px;
+top: 350px;
+}
+
+#PivotDroite:active{
+  content: url("Fleches/PivotDroitClic.jpg");
+  position: fixed;
+  left: 1150px;
+  top: 350px;
+}
+
+#PivotGauche {
+    content: url("Fleches/PivotGaucheNormal.jpg");
+    position: left 6px top 40px;
+    position: fixed;
+    left: 850px;
+    top: 350px;
+}
+
+#PivotGauche:hover{
+content: url("Fleches/PivotGaucheHover.jpg");
+position: fixed;
+left: 850px;
+top: 350px;
+
+}
+
+#PivotGauche:active{
+  content: url("Fleches/PivotGaucheClic.jpg");
+  position: fixed;
+  left: 850px;
+  top: 350px;
+
+}
+
+#Haut{
+  content: url("Fleches/HautNormal.jpg");
+  position: fixed;
+  left: 1000px;
+  top: 350px;
+
+}
+
+#Haut:hover{
+content: url("Fleches/HautHover.jpg");
+position: fixed;
+left: 1000px;
+top: 350px;
+}
+
+#Haut:active{
+  content: url("Fleches/HautClic.jpg");
+  position: fixed;
+  left: 1000px;
+  top: 350px;
+}
+
+#Gauche{
+  content: url("Fleches/GaucheNormal.jpg");
+  position: fixed;
+  left: 850px;
+  top: 500px;
+
+}
+
+#Gauche:hover{
+content: url("Fleches/GaucheHover.jpg");
+position: fixed;
+left: 850px;
+top: 500px;
+}
+
+#Gauche:active{
+  content: url("Fleches/GaucheClic.jpg");
+  position: fixed;
+  left: 850px;
+  top: 500px;
+}
+
+#Bas{
+  content: url("Fleches/BasNormal.jpg");
+  position: fixed;
+  left: 1000px;
+  top: 500px;
+
+}
+
+#Bas:hover{
+content: url("Fleches/BasHover.jpg");
+position: fixed;
+left: 1000px;
+top: 500px;
+}
+
+#Bas:active{
+  content: url("Fleches/BasClic.jpg");
+  position: fixed;
+  left: 1000px;
+  top: 500px;
+}
+
+#Droite{
+  content: url("Fleches/DroiteNormal.jpg");
+  position: fixed;
+  left: 1150px;
+  top: 500px;
+
+}
+
+#Droite:hover{
+content: url("Fleches/DroiteHover.jpg");
+position: fixed;
+left: 1150px;
+top: 500px;
+}
+
+#Droite:active{
+  content: url("Fleches/DroiteClic.jpg");
+  position: fixed;
+  left: 1150px;
+  top: 500px;
+}
